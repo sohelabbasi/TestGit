@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         glue = "steps",
         dryRun = false,
-        tags = "@excel",
+        tags = "@mvn123",
         plugin = {"pretty","html:target/cucumber.html", "json:target/cucumber.json",
                     "rerun:target/failed.txt"}
 )

@@ -42,7 +42,7 @@ public class LoginSteps extends CommonMethods {
     @Then("user should be able to see dashboard page")
     public void user_should_be_able_to_see_dashboard_page() {
         String title = driver.getTitle();
-        String actual = "Human Management Systm";
+        String actual = "Human Management System";
         Assert.assertEquals(title, actual);
         //framnework added for batch 1
     }
