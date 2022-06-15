@@ -44,5 +44,6 @@ public class LoginSteps extends CommonMethods {
         String title = driver.getTitle();
         String actual = "Human Management Systm";
         Assert.assertEquals(title, actual);
+        //framnework added for batch 1
     }
 }
